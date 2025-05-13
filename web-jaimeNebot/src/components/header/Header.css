@@ -1,0 +1,100 @@
+/*--------------------------------
+CSS HEADER GENERAL
+--------------------------------*/
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eacccc;
+}
+
+/* CSS HEADER LOGOTIPO */
+.Header-logoImage {
+    width: 300px;
+    padding: 20px 40px;
+}
+
+/* CSS HEADER NAVEGACIÓN */
+.Header-nav {
+    font-family: "Roboto Condensed", sans-serif;
+    justify-content: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.Header-navList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Header-navLink {
+    color: #202020;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Header-navLink img {
+    width: 25px;
+}
+
+.Header-navLink:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+/* Tablet: 768px a 1024px */
+@media (max-width: 1024px) {
+    .Header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .Header-logoImage {
+        width: 250px;
+        padding: 20px;
+    }
+
+    .Header-navList {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .Header-navLink {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+/* Móvil: menos de 768px */
+@media (max-width: 768px) {
+    .Header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .Header-logoImage {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .Header-navList {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .Header-navLink {
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    .Header-navLink img {
+        width: 20px;
+    }
+}

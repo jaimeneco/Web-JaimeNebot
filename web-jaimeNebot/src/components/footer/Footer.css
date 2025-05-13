@@ -1,0 +1,75 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fdedda;
+    color: #202020;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CSS FOOTER LOGOTIPO */
+.Footer-logoImage {
+    width: 200px;
+}
+
+/* CSS FOOTER CONTENIDO */
+.Footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 10px 10px;
+}
+
+/* CSS FOOTER COPYRIGHT */
+.Footer-text {
+    font-family: "Oswald", sans-serif;
+    font-size: large;
+    justify-content: center;
+
+}
+
+
+/* Tablet: 768px a 1024px */
+@media (max-width: 1024px) {
+    .Footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .Footer-logoImage {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .Footer-content {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Móvil: menos de 768px */
+@media (max-width: 768px) {
+    .Footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .Footer-logoImage {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .Footer-content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .Footer-text {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,197 @@
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento projects.html del sitio web.
+Estructura general:
+- CSS Main
+ */
+
+/*--------------------------------
+CSS MAIN PROJECTS
+--------------------------------*/
+.Main{
+    background: #F1ECE7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* CSS MAIN TAB*/
+.Tabs-contenido {
+    display: none;
+}
+
+/* CSS MAIN TAB BOTONES JS*/
+.Tabs-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #090909;
+    margin: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2rem;
+}
+
+.Tabs-button {
+    padding: 10px 20px;
+    color:#202020;
+    margin:5px;
+}
+.Tabs-button:hover{
+    transform: scale(1.05)
+}
+
+.u-active {
+    background-color: #c44900;
+    border-radius: 10px;
+    color: #F1ECE7;
+}
+
+.u-visible {
+    display: block;
+}
+
+/* CSS MAIN CONTENIDO CARDS */
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    color: #090909;
+    max-width: 400px;
+    min-width: 400px;
+    flex: 1 0 220px;
+    box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 0px;
+}
+
+.Card:hover{
+    transform: scale(1.01);
+    transition: 0.5s ease;
+    background: #c44900;
+    color: #fff;
+}
+
+/* CSS MAIN CONTENIDO ILUSTRACIONES*/
+.Card-ilustration{
+    width: 100%;
+    height: 600px;
+    min-height: 200px;
+    max-height: 400px;
+    max-width: 200px;
+    min-width: 400px;
+}
+
+/* CSS MAIN CONTENIDO GAMES*/
+.Card-game  {
+    width: 100%;
+    height: 300px;
+}
+
+/* CSS MAIN CONTENIDO WEB*/
+.Card-web{
+    width: 100%;
+    height: 300px;
+}
+
+.Card .Card-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px;
+    justify-content: center;
+}
+
+/* CSS MAIN BOTONES ENLACE A PROYECTOS*/
+.Card-btn{
+    border: 2px solid #c44900;
+    padding: 10px;
+    margin: 0px 60px 20px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #090909;
+    text-align: center;
+}
+.Card-btn:hover{
+    border:2px solid #fff;
+    background:#fff;
+    color:#c44900
+}
+.Card-h3 {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+}
+
+/* CSS MAIN TÍTULO CARD */
+.Card-title{
+    text-decoration: none;
+    color: #090909;
+}
+.Card-title:hover{
+    color: #fff;
+}
+
+/*--------------------------------
+CSS MEDIA QUERIES PROJECTS
+--------------------------------*/
+@media (max-width: 768px){
+/* AJUSTES MEDIA QUERIES PARA MÓVILES */
+.Main{
+    background: #F1ECE7;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* CSS MAIN TAB*/
+.Tabs-contenido {
+    display: none;
+}
+/* TAB BOTONES */
+.Tabs-buttons {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    padding: 0px;
+    color: #090909;
+    margin: 5px 0px;
+    font-size: 1.8rem;
+    flex-wrap: wrap; 
+}
+
+.Tabs-button {
+    padding: 8px 16px;
+    width: 100%;
+    margin: 5px 20px;
+}
+
+.Tabs-button:hover {
+    transform: scale(1.02);
+}
+
+.u-active {
+    background-color: #c44900;
+    border: 2px solid #c44900;
+    color: #F1ECE7;
+}
+
+.u-visible {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+    align-content: center;
+} 
+}
