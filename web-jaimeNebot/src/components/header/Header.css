@@ -6,21 +6,25 @@ CSS HEADER GENERAL
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #eacccc;
 }
 
 /* CSS HEADER LOGOTIPO */
 .Header-logoImage {
     width: 300px;
-    padding: 20px 40px;
+    padding: 30px 40px;
 }
 
 /* CSS HEADER NAVEGACIÓN */
 .Header-nav {
+    display: flex;
+    flex-direction: row;
     font-family: "Roboto Condensed", sans-serif;
     justify-content: center;
+    align-items: center;
     font-size: 1.3rem;
     text-decoration: none;
+    background-color: #202020;
+    width: 100%
 }
 
 .Header-navList {
@@ -31,7 +35,7 @@ CSS HEADER GENERAL
 }
 
 .Header-navLink {
-    color: #202020;
+    color: #fff;
     text-decoration: none;
     padding: 10px;
 }

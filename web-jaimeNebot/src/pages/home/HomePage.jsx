@@ -6,10 +6,6 @@ export const HomePage = () => {
     return ( 
         <>
         <Header />
-        <main>
-        Soy Home
-        </main>
-        
         <Footer />
         </>
     );

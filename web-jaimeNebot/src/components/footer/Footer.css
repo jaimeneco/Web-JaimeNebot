@@ -2,15 +2,11 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #fdedda;
-    color: #202020;
+    background-color: #c44900;
+    color: #fff;
     justify-content: center;
     align-items: center;
-}
-
-/* CSS FOOTER LOGOTIPO */
-.Footer-logoImage {
-    width: 200px;
+    align-content: center;
 }
 
 /* CSS FOOTER CONTENIDO */
@@ -18,15 +14,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* ← Añade esto */
     padding: 0px 10px 10px;
+}
+
+/* CSS FOOTER LOGOTIPO */
+.Footer-logoImage {
+    width: 100px;
 }
 
 /* CSS FOOTER COPYRIGHT */
 .Footer-text {
     font-family: "Oswald", sans-serif;
     font-size: large;
-    justify-content: center;
-
+    text-align: center;
 }
 
 
