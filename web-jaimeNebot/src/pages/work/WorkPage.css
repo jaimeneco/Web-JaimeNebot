@@ -71,6 +71,7 @@ CSS MAIN PROJECTS
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.3);
     border: none;
     border-radius: 0px;
+    text-decoration: none;
 }
 
 .Card:hover{
@@ -81,13 +82,13 @@ CSS MAIN PROJECTS
 }
 
 .Card-p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto condensed", sans-serif;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     margin: 20px;
     text-align: center;
-
+    font-size: 1.5rem;
 }
 
 /* CSS IMGS ILUSTRACIONES*/
