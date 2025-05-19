@@ -16,7 +16,7 @@ export const Header = () => {
                     </ul>
                     <div>
                         <NavLink to="/">
-                            <img src="/imgs/img-logoB.png" alt="Logotipo" title='Ir a Home' className="Header-logoImage" loading='lazy' />
+                            <img src="/imgs/img-logoB.png" alt="Logotipo" title='Ir a Work' className="Header-logoImage" loading='lazy' />
                         </NavLink>
                     </div>
                     <ul className="Header-navList">

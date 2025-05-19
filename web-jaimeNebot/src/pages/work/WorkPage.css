@@ -1,16 +1,15 @@
-/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el documento projects.html del sitio web.
-Estructura general:
-- CSS Main
- */
+/* Descripción: este archivo contiene todos los ajustes referidos al CSS que se aplican en el sitio web. */
 
 /*--------------------------------
 CSS MAIN PROJECTS
 --------------------------------*/
-.Main{
-    background: #F1ECE7;
+.Main-workContent{
+    /* background: #F1ECE7; */
+    background: #fff;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    min-height: 100vh;
 }
 
 /* CSS MAIN TAB*/
@@ -26,8 +25,8 @@ CSS MAIN PROJECTS
     list-style: none;
     cursor: pointer;
     padding: 10px 20px;
-    color: #090909;
-    margin: 10px;
+    color: #202020;
+    margin-top: 10px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.2rem;
 }
@@ -57,7 +56,7 @@ CSS MAIN PROJECTS
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    margin-top: 20px;
+    /* padding: 20px; */
     font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -81,7 +80,17 @@ CSS MAIN PROJECTS
     color: #fff;
 }
 
-/* CSS MAIN CONTENIDO ILUSTRACIONES*/
+.Card-p {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin: 20px;
+    text-align: center;
+
+}
+
+/* CSS IMGS ILUSTRACIONES*/
 .Card-ilustration{
     width: 100%;
     height: 600px;
@@ -89,59 +98,21 @@ CSS MAIN PROJECTS
     max-height: 400px;
     max-width: 200px;
     min-width: 400px;
+    padding: 10px;
 }
 
-/* CSS MAIN CONTENIDO GAMES*/
+/* CSS IMGS GAMES*/
 .Card-game  {
     width: 100%;
     height: 300px;
 }
 
-/* CSS MAIN CONTENIDO WEB*/
+/* CSS IMGS WEB*/
 .Card-web{
     width: 100%;
     height: 300px;
 }
 
-.Card .Card-text {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px 20px;
-    justify-content: center;
-}
-
-/* CSS MAIN BOTONES ENLACE A PROYECTOS*/
-.Card-btn{
-    border: 2px solid #c44900;
-    padding: 10px;
-    margin: 0px 60px 20px 60px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #090909;
-    text-align: center;
-}
-.Card-btn:hover{
-    border:2px solid #fff;
-    background:#fff;
-    color:#c44900
-}
-.Card-h3 {
-    font-family: "Montserrat", sans-serif;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    margin: 20px;
-    text-align: center;
-}
-
-/* CSS MAIN TÍTULO CARD */
-.Card-title{
-    text-decoration: none;
-    color: #090909;
-}
-.Card-title:hover{
-    color: #fff;
-}
 
 /*--------------------------------
 CSS MEDIA QUERIES PROJECTS

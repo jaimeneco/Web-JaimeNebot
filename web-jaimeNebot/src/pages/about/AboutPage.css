@@ -6,6 +6,7 @@
     justify-content: center;
     padding: 40px 300px;
     font-family: "Roboto Condensed", sans-serif;
+    min-height: 100vh;
 }
 
 .Main-aboutImg{
@@ -18,9 +19,8 @@
 
 .Main-aboutText {
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    
     
 }
 
@@ -28,4 +28,9 @@
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1.5rem;
     padding: 20px 0px 10px 0px;
+}
+
+.Main-aboutAction{
+    font-size: 2rem;
+    padding: 20px;
 }

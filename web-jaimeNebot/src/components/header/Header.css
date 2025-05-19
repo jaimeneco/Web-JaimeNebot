@@ -6,6 +6,9 @@ CSS HEADER GENERAL
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    color: pink;
+    background-color: #202020;
 }
 
 /* CSS HEADER LOGOTIPO */
@@ -23,8 +26,9 @@ CSS HEADER GENERAL
     align-items: center;
     font-size: 1.3rem;
     text-decoration: none;
-    background-color: #202020;
-    width: 100%
+    width: 100%;
+    padding: 40px 0px;
+    
 }
 
 .Header-navList {
@@ -32,12 +36,13 @@ CSS HEADER GENERAL
     flex-direction: row;
     list-style: none;
     text-decoration: none;
+    
 }
 
 .Header-navLink {
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
 }
 
 .Header-navLink img {
