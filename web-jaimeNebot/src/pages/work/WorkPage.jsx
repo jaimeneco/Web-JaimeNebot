@@ -59,8 +59,8 @@ export const WorkPage = () => {
 
                         <div id="PageGames" className={`Tabs-contenido ${tabActiva === "PageGames" ? "u-visible" : ""}`}>
                             <div className="Cards">
-                                <a className="Card" title="Ir a juego Piedra, Papel o Tijera" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
-                                    <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen Piedra, papel o tijera" />
+                                <a className="Card" title="Ir a juego Piedra, Papel o Tijera" href="https://game-ppt-git-main-jaimes-projects-7e668735.vercel.app">
+                                    <img className="Card-web" src="/imgs/imgs-web/img-ppt.png" alt="Imagen Piedra, papel o tijera" />
                                     <p className="Card-p">Piedra, papel o tijera</p>
                                 </a>
 
