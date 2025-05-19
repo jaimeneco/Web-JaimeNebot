@@ -24,6 +24,9 @@ export const Header = () => {
                             <NavLink className="Header-navLink" to='https://www.instagram.com/jaimenebot/?hl=es' title='Ir a Instagram'><img src="/imgs/img-instagramB.png" alt="Ir a Instagram" /></NavLink>
                         </li>
                         <li className="Header-navLink">
+                            <NavLink className="Header-navLink" to='https://www.linkedin.com/in/jaime-nebot-54132419b/' title='Ir a Linkedin'><img src="/imgs/img-lkdin.png" alt="Ir a Linkedin" /></NavLink>
+                        </li>
+                        <li className="Header-navLink">
                             <a href="mailto:jaime.nebot.colom@gmail.com" title="Enviar un correo">
                                 <img
                                     src="/imgs/img-sobreB.png"

@@ -59,14 +59,14 @@ export const WorkPage = () => {
 
                         <div id="PageGames" className={`Tabs-contenido ${tabActiva === "PageGames" ? "u-visible" : ""}`}>
                             <div className="Cards">
-                                <a className="Card" title="Ir a Web de ONPIK" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
-                                    <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen ONPIK" />
-                                    <p className="Card-p">ONPIK</p>
+                                <a className="Card" title="Ir a juego Piedra, Papel o Tijera" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
+                                    <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen Piedra, papel o tijera" />
+                                    <p className="Card-p">Piedra, papel o tijera</p>
                                 </a>
 
-                                <a className="Card" title="Ir a Web de ONPIK" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
-                                    <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen ONPIK" />
-                                    <p className="Card-p">ONPIK</p>
+                                <a className="Card" title="Ir a Juego de contador" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
+                                    <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen contador" />
+                                    <p className="Card-p">Contador</p>
                                 </a>
                             </div>
                         </div>
