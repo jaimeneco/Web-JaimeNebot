@@ -65,6 +65,7 @@ CSS MAIN PROJECTS
     flex-direction: column;
     background-color:#fff;
     color: #090909;
+    margin:10px;
     max-width: 400px;
     min-width: 400px;
     flex: 1 0 220px;
@@ -100,6 +101,9 @@ CSS MAIN PROJECTS
     max-width: 200px;
     min-width: 400px;
     padding: 10px;
+}
+.Card-ilustration:hover{
+    scale: 1.1;
 }
 
 /* CSS IMGS GAMES*/
