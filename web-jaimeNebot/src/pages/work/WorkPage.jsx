@@ -45,14 +45,14 @@ export const WorkPage = () => {
                                     <p className="Card-p">ONPIK</p>
                                 </a>
 
-                                <a className="Card" title="Ir a Web de..." href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
+                                <a className="Card" title="Ir a Web de Chef Connect" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
                                     <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen ONPIK" />
-                                    <p className="Card-p">ONPIK</p>
+                                    <p className="Card-p">Chef Connect</p>
                                 </a>
 
                                 <a className="Card" title="Ir a Web de ONPIK" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
                                     <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen ONPIK" />
-                                    <p className="Card-p">ONPIK</p>
+                                    <p className="Card-p">Web de motos?</p>
                                 </a>
                             </div>
                         </div>
