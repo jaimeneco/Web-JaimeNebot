@@ -46,13 +46,13 @@ export const WorkPage = () => {
                                 </a>
 
                                 <a className="Card" title="Ir a Web de Chef Connect" href="https://web-chef-connect-git-main-jaimes-projects-7e668735.vercel.app">
-                                    <img className="Card-web" src="/imgs/imgs-web/img-chefConnect.png" alt="Imagen ONPIK" />
+                                    <img className="Card-web" src="/imgs/imgs-web/img-chefConnect.png" alt="Imagen Chef Connect" />
                                     <p className="Card-p">CHEF CONNECT</p>
                                 </a>
 
-                                <a className="Card" title="Ir a Web de ONPIK" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
-                                    <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen ONPIK" />
-                                    <p className="Card-p">Web de motos?</p>
+                                <a className="Card" title="Ir a Web de Rick and Morty" href="https://actividad5-fs-rick-and-morty-git-main-jaimes-projects-7e668735.vercel.app">
+                                    <img className="Card-web" src="/imgs/imgs-web/img-rickMorty.png" alt="Imagen Rick and Morty" />
+                                    <p className="Card-p">API Rick and Morty</p>
                                 </a>
                             </div>
                         </div>
