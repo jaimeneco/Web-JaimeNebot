@@ -1,4 +1,4 @@
-.Main-aboutContent{
+.Main-aboutContent {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@
     min-height: 100vh;
 }
 
-.Main-aboutImg{
+.Main-aboutImg {
     width: 500px;
     padding: 0px 30px 30px 30px;
     align-items: center;
@@ -22,7 +22,7 @@
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.6;
-    
+
 }
 
 .Main-aboutTitle {
@@ -31,7 +31,64 @@
     padding: 20px 0px 10px 0px;
 }
 
-.Main-aboutAction{
+.Main-aboutAction {
     font-size: 2rem;
     padding: 20px;
+}
+.Link-action{
+    text-decoration: none;
+    color: #202020;
+}
+
+.Link-action:hover{
+    font-size: 2.2rem;
+}
+
+/* Tablet: hasta 1024px */
+@media (max-width: 1024px) {
+    .Main-aboutContent {
+        padding: 40px 100px;
+    }
+
+    .Main-aboutImg {
+        width: 400px;
+    }
+
+    .Main-aboutText {
+        font-size: 1.2rem;
+    }
+
+    .Main-aboutTitle {
+        font-size: 1.4rem;
+    }
+
+    .Main-aboutAction {
+        font-size: 1.8rem;
+    }
+}
+
+/* Móvil: hasta 768px */
+@media (max-width: 768px) {
+    .Main-aboutContent {
+        padding: 20px 30px;
+    }
+
+    .Main-aboutImg {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .Main-aboutText {
+        font-size: 1.1rem;
+    }
+
+    .Main-aboutTitle {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .Main-aboutAction {
+        font-size: 1.5rem;
+        text-align: center;
+    }
 }

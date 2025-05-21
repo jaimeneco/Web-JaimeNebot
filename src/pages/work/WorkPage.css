@@ -3,7 +3,7 @@
 /*--------------------------------
 CSS MAIN PROJECTS
 --------------------------------*/
-.Main-workContent{
+.Main-workContent {
     /* background: #F1ECE7; */
     background: #fff;
     display: flex;
@@ -33,10 +33,11 @@ CSS MAIN PROJECTS
 
 .Tabs-button {
     padding: 10px 20px;
-    color:#202020;
-    margin:5px;
+    color: #202020;
+    margin: 5px;
 }
-.Tabs-button:hover{
+
+.Tabs-button:hover {
     transform: scale(1.05)
 }
 
@@ -63,9 +64,9 @@ CSS MAIN PROJECTS
 .Card {
     display: flex;
     flex-direction: column;
-    background-color:#fff;
+    background-color: #fff;
     color: #090909;
-    margin:10px;
+    margin: 10px;
     max-width: 400px;
     min-width: 400px;
     flex: 1 0 220px;
@@ -75,7 +76,7 @@ CSS MAIN PROJECTS
     text-decoration: none;
 }
 
-.Card:hover{
+.Card:hover {
     transform: scale(1.01);
     transition: 0.5s ease;
     background: #c44900;
@@ -93,7 +94,7 @@ CSS MAIN PROJECTS
 }
 
 /* CSS IMGS ILUSTRACIONES*/
-.Card-ilustration{
+.Card-ilustration {
     width: 100%;
     height: 600px;
     min-height: 200px;
@@ -102,72 +103,89 @@ CSS MAIN PROJECTS
     min-width: 400px;
     padding: 10px;
 }
-.Card-ilustration:hover{
+
+.Card-ilustration:hover {
     scale: 1.1;
 }
 
 /* CSS IMGS GAMES*/
-.Card-game  {
+.Card-game {
     width: 100%;
     height: 300px;
 }
 
 /* CSS IMGS WEB*/
-.Card-web{
+.Card-web {
     width: 100%;
     height: 300px;
 }
 
 
-/*--------------------------------
-CSS MEDIA QUERIES PROJECTS
---------------------------------*/
-@media (max-width: 768px){
-/* AJUSTES MEDIA QUERIES PARA MÓVILES */
-.Main{
-    background: #F1ECE7;
-    width: 100%;
-    overflow-x: hidden;
+/* Tablet: hasta 1024px */
+@media (max-width: 1024px) {
+    .Main-workContent {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Tabs-buttons {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.1rem;
+    }
+
+    .Card {
+        min-width: 90%;
+        max-width: 90%;
+    }
+
+    .Card-ilustration {
+        width: 100%;
+        height: 650px;
+        max-width: 100%;
+        object-fit: contain;
+        /* o prueba con 'contain' si lo prefieres */
+        display: block;
+    }
+    .Card-ilustration:hover{
+        background-color: #fff;
+    }
 }
 
-/* CSS MAIN TAB*/
-.Tabs-contenido {
-    display: none;
-}
-/* TAB BOTONES */
-.Tabs-buttons {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    cursor: pointer;
-    padding: 0px;
-    color: #090909;
-    margin: 5px 0px;
-    font-size: 1.8rem;
-    flex-wrap: wrap; 
-}
+/* Móvil: hasta 768px */
+@media (max-width: 768px) {
+    .Main-workContent {
+        flex-direction: column;
+        padding: 10px;
+    }
 
-.Tabs-button {
-    padding: 8px 16px;
-    width: 100%;
-    margin: 5px 20px;
-}
+    .Tabs-buttons {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        padding: 0;
+    }
 
-.Tabs-button:hover {
-    transform: scale(1.02);
-}
+    .Card {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
 
-.u-active {
-    background-color: #c44900;
-    border: 2px solid #c44900;
-    color: #F1ECE7;
-}
+    .Card-ilustration {
+        height: auto;
+        max-width: 100%;
+        min-width: 100%;
+        padding: 10px;
+    }
 
-.u-visible {
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    width: 100%;
-    align-content: center;
-} 
+    .Card-game,
+    .Card-web {
+        height: auto;
+    }
+
+    .Card-p {
+        font-size: 1.2rem;
+        margin: 15px;
+    }
 }

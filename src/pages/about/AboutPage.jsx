@@ -1,6 +1,7 @@
 import { Header } from "../../components/header/Header";
 import { Footer } from "../../components/footer/Footer";
 import './AboutPage.css'
+import { Link } from "react-router-dom";
 
 export const AboutPage = () => {
     return (
@@ -17,7 +18,8 @@ export const AboutPage = () => {
                     <p className="Main-aboutText">Mi paso por Declarando Asesores fue clave para desarrollar una visión más analítica y orientada al cliente. Como SDR y Account Executive, aprendí a detectar necesidades reales, ofrecer soluciones y entender el valor de una experiencia digital funcional y bien diseñada. Fue allí donde nació mi interés por crear herramientas y no solo comercializarlas.</p><br/>
                     <p className="Main-aboutText">Ese impulso me llevó a formarme como Full Stack Developer, combinando mi perfil creativo con habilidades técnicas. En el CEI Valencia aprendí a desarrollar aplicaciones completas, desde la idea y el diseño en Figma hasta el desarrollo en React, NextJS, Express o MongoDB. Hoy busco seguir creciendo en proyectos donde diseño, tecnología y experiencia de usuario se unan con propósito.</p>
                 </div>
-                <p className="Main-aboutAction">Si has llegado hasta aquí, ¿por qué no hablamos? 🚀</p>
+                <p className="Main-aboutAction">Si has llegado hasta aquí, <a className="Link-action" href="mailto:jaime.nebot.colom@gmail.com" title="Enviar correo">¿por qué no hablamos? </a>🚀</p>
+                
             </main>
             <Footer />
         </>
