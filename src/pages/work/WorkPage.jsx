@@ -68,6 +68,12 @@ export const WorkPage = () => {
                                     <img className="Card-web" src="/imgs/imgs-web/img-cont.png" alt="Imagen Sol VS Luna" />
                                     <p className="Card-p">Sol VS Luna</p>
                                 </a>
+
+                                <a className="Card" title="Ir a The Blooming Game" href="https://game-flor-git-main-jaimes-projects-7e668735.vercel.app">
+                                    <img className="Card-web" src="/imgs/imgs-web/img-bloom.png" alt="Imagen Blooming Game" />
+                                    <p className="Card-p">The Blooming Game</p>
+                                </a>
+
                             </div>
                         </div>
 
