@@ -40,6 +40,10 @@ export const WorkPage = () => {
                     <div className="Tabs-container">
                         <div id="PageWeb" className={`Tabs-contenido ${tabActiva === "PageWeb" ? "u-visible" : ""}`}>
                             <div className="Cards">
+                                <a className="Card" title="Ir a Web de La [2] Silla" href="https://la-2-silla.vercel.app/">
+                                    <img className="Card-web" src="/imgs/imgs-web/img-laSilla.png" alt="Imagen La [2] Silla" />
+                                    <p className="Card-p">La [2] Silla</p>
+                                </a>
                                 <a className="Card" title="Ir a Web de ONPIK" href="https://frontend-proyecto-fs-jaime-nebot.vercel.app/">
                                     <img className="Card-web" src="/imgs/imgs-web/img-onpik.png" alt="Imagen ONPIK" />
                                     <p className="Card-p">ONPIK</p>
