@@ -9,7 +9,10 @@ export const AboutPage = () => {
             <Header />
             <main className="Main-aboutContent">
                 <img className="Main-aboutImg" src="/imgs/img-about-me.png" alt="" />
-                <p className="Main-aboutText">¡Hola! Soy Jaime y soy Desarrollador Front-end Junior especializado en el stack MERN y en Next.js. Con dominio de JavaScript, HTML5 y CSS3, cuento con experiencia en la creación y desarrollo de páginas web, banners y mails, logrando así productos digitales responsive optimizados en distintos dispositivos que cuentan con código y componentes limpios y escalables.<br/><br/> Especialmente interesado en la creación de experiencias digitales atractivas, funcionales y orientadas al usuario, mi perfil integra una fuerte sensibilidad por el diseño gráfico y web, permitiéndome transformar prototipos en experiencias reales.<br/><br/>
+                <p className="Main-aboutText">¡Hola! Soy Jaime y soy <strong>Desarrollador Front-end Junior</strong> especializado en el <strong>stack MERN</strong> y en <strong>Next.js</strong>. Con dominio de <strong>JavaScript, HTML5 y CSS3</strong>, cuento con experiencia en la creación y desarrollo de páginas web, banners y mails, logrando así productos digitales responsive optimizados en distintos dispositivos que cuentan con código y componentes limpios y escalables.<br/> 
+                
+                Especialmente interesado en la creación de experiencias digitales atractivas, funcionales y orientadas al usuario, mi perfil integra una fuerte sensibilidad por el diseño gráfico y web, permitiéndome transformar prototipos en experiencias reales.<br/>
+                
                 Aspiro a integrarme en un entorno profesional donde seguir fortaleciendo mis conocimientos y contribuir al desarrollo de soluciones tecnológicas innovadoras.</p><br />
                 <div>
                     <p className="Main-aboutTitle">De las ideas al código...</p>
